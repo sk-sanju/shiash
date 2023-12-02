@@ -15,9 +15,11 @@ def withdraw(amount):
 
 def check_balance():
     global balance
+    print()
     print(f"Your balance is: ₹{balance}")
 
 while True:
+    print()
     print("===SANJU-ATM===")
     print("\n1. Deposit\n2. Withdraw\n3. Check Balance\n4. Exit")
     choice = input("Enter your choice: ")
