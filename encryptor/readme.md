@@ -115,14 +115,14 @@ Thus as our model depicts the usage of customized product and some data which sh
 
 <h3>Hardware requirements:</h3>
 
-●	Processor:		 Intel(R) Core(TM) i5-8350U CPU
-●	Speed:			 1.6 GHz and Above
-●	RAM:			 6 GB and Above
-●	Hard Disk:		 125 GB
-●	Monitor:		 15’’ LED SVGA
-●	Input Devices:		 Keyboard, Mouse
-Software requirements:
-●	Operating system:	 Windows 11
-●	Coding Language: 	 PYTHON - DJANGO
-●	IDE:                             VISUAL STUDIO CODE
-●	Database:		 SQLite 3 
+●	Processor:		 Intel(R) Core(TM) i5-8350U CPU <br>
+●	Speed:			 1.6 GHz and Above <br>
+●	RAM:			 6 GB and Above <br>
+●	Hard Disk:		 125 GB <br>
+●	Monitor:		 15’’ LED SVGA <br>
+●	Input Devices:		 Keyboard, Mouse <br>
+<h3>Software requirements:</h3>
+●	Operating system:	 Windows 11 <br>
+●	Coding Language: 	 PYTHON - DJANGO <br>
+●	IDE:                             VISUAL STUDIO CODE <br>
+●	Database:		 SQLite 3 <br>
