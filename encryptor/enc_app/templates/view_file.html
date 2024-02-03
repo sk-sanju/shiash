@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+
+{% block title %}{{ file.file_name }}{% endblock %}
+
+{% block content %}
+    <h2>{{ file.file_name }}</h2>
+    <hr></hr>
+    <p><strong> Encrypted Data: </strong> {{ file.encrypted_data }}</p>
+    <hr></hr>
+    <p><strong> Decrypted Data: </strong> {{ decrypted_data }}</p>
+{% endblock %}

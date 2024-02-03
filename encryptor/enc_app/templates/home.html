@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Encrypted Files{% endblock %}
+
+{% block content %}
+<hr></hr>
+    <h2 style="center">Encrypted Files</h2>
+    <ul>
+        {% for file in files %}
+            <li><a href="{% url 'view_file' file.id %}">{{ file.file_name }}</a></li>
+        {% endfor %}
+    </ul>
+    <hr></hr>
+    <form method="post" enctype="multipart/form-data" action="{% url 'upload_file' %}">
+        {% csrf_token %}
+        <input type="file" name="file" required>
+        <button type="submit">Upload File</button>
+    </form>
+{% endblock %}
